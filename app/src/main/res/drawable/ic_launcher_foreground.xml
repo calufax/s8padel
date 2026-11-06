@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Padel court outline -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:pathData="M31,26 L77,26 A5,5 0 0,1 82,31 L82,77 A5,5 0 0,1 77,82 L31,82 A5,5 0 0,1 26,77 L26,31 A5,5 0 0,1 31,26 Z" />
+    <!-- Net line -->
+    <path
+        android:strokeColor="#D4F238"
+        android:strokeWidth="3.2"
+        android:pathData="M26,54 L82,54" />
+    <!-- Service lines -->
+    <path
+        android:strokeColor="#80FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M34,39 L74,39 M34,69 L74,69 M54,39 L54,69" />
+    <!-- Padel ball accent -->
+    <path
+        android:fillColor="#D4F238"
+        android:pathData="M68,38 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0B4F3A"
+        android:strokeWidth="1.8"
+        android:pathData="M62,33 C65,36 65,40 62,43 M74,33 C71,36 71,40 74,43" />
+</vector>
